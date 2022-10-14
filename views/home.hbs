@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="content">
+      {{>navbar}}  
+
+    
+        <div class="section2">
+            <div class="section3" >
+                 <h1>34<sup>0</sup></h1>
+                 <h3>30<sup>0</sup>/20<sup>0</sup></h3> 
+            </div>
+            <div id="two">
+                <img src="./image/loc.png" alt="" id="img1"><span>Mumbai</span>
+                <img src="./image/mob.png" alt="" id="img2">
+            </div>
+        </div>
+   
+</section>
+<section class="middle">
+    
+   <div class="middle1">
+     <div class="middlediv1">
+        <h1>Weather Assistant In Your Phone</h1>
+        <br><br>
+        <p>Find Out Rain and floods beckon as La Nina looms and IOD deepens.</p>
+        <br> <br>
+        <a href="./weather">Check weather</a>
+    </div>
+    <div  class="middlediv2">
+         <img src="/image/smallmob.jpg" alt="">
+        
+    </div>
+    <div class="middlediv3">
+         <img src="/image/mobilr.jpg" alt=""> 
+    </div>
+   </div>
+</section>
+{{>footer}}
+</body>
+</html>
